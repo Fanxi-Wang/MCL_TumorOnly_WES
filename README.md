@@ -55,11 +55,17 @@ sbatch scripts/2_variant_calling/MuTect2_array.sh
 ```
 
 ## Output Summary
-| **1. Alignment** | `sorted_*.bam`, `recalibrated_*.bam` |
-| **2. Variant Calling** | `*_mutect2_tumor.vcf.gz`, `*_vardict_tumor.vcf` |
-| **3. Variant Integration** | `*_merged.vcf`, `*_nonSV.vcf`, `*_SV.vcf` |
-| **4. Annotation** | `*_hg38_multianno.txt`, `*_SVs_annotated.tsv` |
-| **5. Visualization** | Oncoprint plots, variant summary tables |
 
+| Step | Description | Example Outputs |
+|------|--------------|------------------|
+| **1. Alignment** | Raw alignment and recalibration | `sorted_*.bam`, `recalibrated_*.bam` |
+| **2. Variant Calling** | Somatic SNV and indel calling using Mutect2 and VarDict | `*_mutect2_tumor.vcf.gz`, `*_vardict_tumor.vcf` |
+| **3. Variant Integration** | Merge Mutect2 + VarDict results; split SNV/SV | `*_merged.vcf`, `*_nonSV.vcf`, `*_SV.vcf` |
+| **4. Annotation** | Functional and structural variant annotation | `*_hg38_multianno.txt`, `*_SVs_annotated.tsv` |
+| **5. Visualization** | Oncoprint plots and variant summary tables | HTML reports, annotated figures |
 
-**Author:** Fanxi Wang  | **Institution:** Weill Cornell Medicine | **Lab:** Elemento Lab, Englander Institute for Precision Medicine
+---
+
+**Author:** Fanxi Wang  
+**Institution:** Weill Cornell Medicine  
+**Lab:** Elemento Lab, Englander Institute for Precision Medicine
