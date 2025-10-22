@@ -1,4 +1,4 @@
-# MCL_TumorOnly_WES
+# MCL TumorOnly WES
 
 This repository contains the **tumor-only whole exome sequencing (WES) analysis pipeline** for **mantle cell lymphoma (MCL)** samples.  
 The workflow integrates alignment, variant calling, variant integration, annotation, and visualization, implemented on the HPC cluster.
