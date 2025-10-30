@@ -8,7 +8,7 @@ The workflow integrates alignment, variant calling, variant integration, annotat
 ## Pipeline Visualization
 
 <p align="center">
-  <img src="https://github.com/Fanxi-Wang/MCL_TumorOnly_WES/blob/main/images/Pipeline.png?raw=true" width="700">
+  <img src="https://raw.githubusercontent.com/Fanxi-Wang/MCL_TumorOnly_WES/main/images/Pipeline.png" width="700">
 </p>
 
 ---
